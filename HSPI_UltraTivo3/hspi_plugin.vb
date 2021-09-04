@@ -52,6 +52,7 @@ Module hspi_plugin
   Public Sub InitializeHashTables()
 
     ' Navigation Buttons
+
     Buttons.Add(1, "Up")
     Buttons.Add(2, "Down")
     Buttons.Add(3, "Left")
@@ -120,6 +121,9 @@ Module hspi_plugin
     Buttons.Add(56, "Action_B")
     Buttons.Add(57, "Action_C")
     Buttons.Add(58, "Action_D")
+
+    Buttons.Add(58.2, "Standby")
+    Buttons.Add(58.1, "Back")
 
     ' Teleport Buttons
     Buttons.Add(59, "Teleport_TiVo")

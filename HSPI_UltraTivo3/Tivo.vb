@@ -536,7 +536,7 @@ Public Class TiVo
       WriteMessage(String.Format("Processing {0} command {1}.", "TiVo DVR", strButtonName), MessageType.Debug)
 
       Select Case buttonKey
-        Case Is <= 58
+        Case Is < 59
           AddCommand(String.Format("IRCODE {0}", strButtonName.ToUpper), True)
         Case 59, 60, 61, 62
           AddCommand(String.Format("TELEPORT {0}", strButtonName.Replace("Teleport_", "").ToUpper), True)
