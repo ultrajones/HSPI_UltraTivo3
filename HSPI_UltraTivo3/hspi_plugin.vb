@@ -122,14 +122,14 @@ Module hspi_plugin
     Buttons.Add(57, "Action_C")
     Buttons.Add(58, "Action_D")
 
-    Buttons.Add(58.2, "Standby")
-    Buttons.Add(58.1, "Back")
+    Buttons.Add(59, "Standby")
+    Buttons.Add(60, "Back")
 
     ' Teleport Buttons
-    Buttons.Add(59, "Teleport_TiVo")
-    Buttons.Add(60, "Teleport_LiveTv")
-    Buttons.Add(61, "Teleport_Guide")
-    Buttons.Add(62, "Teleport_NowPlaying")
+    Buttons.Add(61, "Teleport_TiVo")
+    Buttons.Add(62, "Teleport_LiveTv")
+    Buttons.Add(63, "Teleport_Guide")
+    Buttons.Add(64, "Teleport_NowPlaying")
 
   End Sub
 
